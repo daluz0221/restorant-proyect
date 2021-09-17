@@ -92,7 +92,7 @@ var swiper = new Swiper(".review-slider", {
   }
 
 function fadeOut() {
-    setInterval(loader, 2500);
+    setInterval(loader, 500);
 }
 
 

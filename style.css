@@ -583,7 +583,7 @@ header .icons #menu-bars{
     text-decoration: underline;
 }
 
-.footer .credit{
+.credit{
     text-align: center;
     border-top: .1rem solid rgba(0,0,0,.1);
     font-size: 2rem;
@@ -591,9 +591,16 @@ header .icons #menu-bars{
     padding: .5rem;
     padding-top: 1.5rem;
     margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.footer .credit span{
+.credit h2{
+    flex-basis: 100%;
+}
+
+.credit span{
     color: var(--green);
 }
 
@@ -619,6 +626,11 @@ header .icons #menu-bars{
 .loader-container.fade-out{
     top: 110%;
     opacity: 0;
+}
+
+.credit small a{
+    
+    color: var(--black);
 }
 
 
